@@ -7,11 +7,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <header>Trivia Game!</header>
-    <br>
-    <h1>Time Remaining:</h1>
+<body background="./assets/images/image.jpg">
+    <div class="header">
+        <h1>Trivia Game!</h1>
+        <div id="timer-display">00:30</div>
+    </div>
+    <button type="button" class="start btn btn-primary btn-lg btn-block">Start!</button>
+    <div class="question-block">
+
+    </div>
+    <div class="results">
+        <h2 id="correct">
+            Correct:
+        </h2>
+        <h2 id="incorrect">
+            Incorrect:
+        </h2>
+        <h2 id="unanswered">
+            Unanswered:
+        </h2>
+    </div>
+    <button type="button" class="done btn btn-primary btn-lg btn-block">
+        Done!
+    </button>
+    <button type="button" class="reset btn btn-primary btn-lg btn-block">
+        Reset!
+    </button>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+    
 </body>
 </html>

@@ -1,0 +1,31 @@
+h1 {
+    background-color: cornsilk;
+    color: darkcyan;
+    text-align: center;
+    border-style: groove;
+    border-color: chartreuse;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#timer-display {
+    background-color: cornsilk;
+    text-align: center;
+    font-size: xx-large;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.results {
+    background-color: cornsilk;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.question-block {
+    background-color: cornsilk;
+}
+h2 {
+    margin: 40px;
+}
